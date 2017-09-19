@@ -21,7 +21,7 @@ module.exports = {
   ResetPasswordForm:  ResetPasswordForm.default,
   ChangePasswordForm: ChangePasswordForm.default,
   SignupForm:         SignupForm.default,
-  MeBox:              MeBox,
+  MeBox:              MeBox.default,
   getMe:              AuthSelector.getMe,
   AuthActions:        AuthActions.default,
   AuthSaga:           AuthSaga.default,
