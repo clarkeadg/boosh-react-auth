@@ -1,0 +1,47 @@
+
+.me-box {
+  padding: 0.25em 1.5em;
+
+  &.loggedout {
+    padding: 0.25em 0.5em;
+    &.menu > li > a {
+      padding: 0 0.25em;
+      button {
+        background: none;
+        border: 0;
+      }
+    }
+  }
+
+  .UserPhoto {
+    border: 1px solid #fff;
+    //border-radius: 0.5em;
+    //overflow: hidden;
+    margin-right: 0.5em;
+  }
+
+  .username {
+    color: #fff;
+  }
+
+  ul {
+    li {
+      a.IconBox {
+        padding: 0 0.25em;
+        margin-right: 0.5em;
+        position: relative;
+
+        .badge {
+          position: absolute;
+          top: -0.25em;
+          right: -0.5em;
+        }
+      }
+    }
+  }
+
+  i {
+    font-size: 1.5em;
+    color: #fff;
+  }
+}
