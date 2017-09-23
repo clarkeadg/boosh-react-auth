@@ -2,7 +2,7 @@
 import { browserHistory } from 'react-router'
 
 const redirect = (url) => {
-  browserHistory.pushState(null, url || getParameterByName('redirect') || '/')
+  browserHistory.push(null, url || getParameterByName('redirect') || '/')
 }
 
 const getAccessToken = () => {
