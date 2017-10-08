@@ -130,7 +130,7 @@ export default (api) => {
     if (response && response.ok) {
       //yield put(Actions.signupSuccess())
       yield put(Actions.loginAttempt({
-        email: meta.email,
+        username: meta.email,
         password: meta.password
       }))
     } else {
