@@ -124,7 +124,7 @@ export default (api) => {
   function * attemptSignup (meta) {
 
     // make the call to the api
-    const response = yield call(api.signup, { email: meta.username, password: meta.password })
+    const response = yield call(api.signup, { email: meta.email, username: meta.username, password: meta.password })
 
     // success?
     if (response && response.ok) {
